@@ -1,42 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Simple Chat
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+#### Author: jimmyhealer
 
-## Setup
+# Description
 
-Make sure to install the dependencies:
+This is a simple chat application that uses the following technologies:
+Express, Nuxt 3, MongoDB
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
+## Development
 
 ```bash
-npm run dev
+node index.js
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+defalut port is 8080
